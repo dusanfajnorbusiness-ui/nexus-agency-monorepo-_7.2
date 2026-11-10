@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "👑 Launch Nexus Agency (Port 5172)",
+      "url": "http://localhost:5172",
+      "webRoot": "${workspaceFolder}/apps/agency"
+    }
+  ]
+}

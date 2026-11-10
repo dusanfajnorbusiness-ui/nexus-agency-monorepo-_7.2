@@ -8,6 +8,7 @@
 
 import React from "react";
 import { SoundFX } from "@shared/utils/SoundEngine.js";
+import { AgencyDropdown } from "@agency/components/AgencyDropdown.jsx";
 import {
   Cpu,
   ExternalLink,
@@ -135,6 +136,10 @@ export const AgencyHeader = ({
 
         {/* 🛡️ PRAVÁ ČASŤ: KO-FI B2B SHOP + ZABLOKOVANÝ PROFIL A LOGIN */}
         <div className="flex items-center gap-2 shrink-0">
+
+            {/* 🌐 GLOBÁLNY ROUTING: PROJEKT NEXUS & SUBDOMÉNY */}
+          <AgencyDropdown />
+
           <a
             href="https://ko-fi.com/cybertech_architect/commissions"
             target="_blank"
